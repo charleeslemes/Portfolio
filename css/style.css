@@ -265,4 +265,118 @@ section.tec .tec-single p{
    
 }
 
+section.projetos{
+    margin-top: 40px;
+}
 
+section.projetos .wraper-title{
+    padding-top: 100px;
+    margin-bottom: 60px;
+    max-width: 130px;
+    
+    
+
+}
+
+section.projetos .wraper-title .bullet{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #2f1985 ;
+    float: right;
+
+}
+
+section.projetos .wraper-title .title h2{
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+
+section.projetos .container-projetos{
+    width: 100%;
+    margin-top: 30px;
+    
+    position: relative;
+}
+
+
+section.projetos .arrow-left{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    cursor: pointer;
+    font-size: 50px;
+    width: 60px;
+    height: 100px;
+    padding-left: 5px;
+    line-height: 100px;
+    background-color: rgba(51,51,51,0.3);
+
+}
+
+section.projetos .arrow-right{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+    width: 60px;
+    height: 100px;
+    padding-left: 5px;
+    line-height: 100px;
+    background-color: rgba(51,51,51,0.3);
+
+}
+
+section.projetos .projetos-single{
+   background-color: rgb(51,51,51);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+section.projetos .projetos-single .img-projeto{
+    background-image: url('../images/projeto-viagem.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 80%;
+    margin: 15px;
+    border-top: 15px solid #333333;
+}
+
+section.projetos .projetos-single p{
+    margin: 0 auto;
+    max-width: 380px;
+    color:white;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 27px;
+    text-align: center;
+}
+
+section.projetos .projetos-single .button-projeto{
+    
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #2f1985;
+    text-align: center;
+    margin: 20px auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+section.projetos .projetos-single .button-projeto a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+
+}

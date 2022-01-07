@@ -119,7 +119,43 @@
 
 
         </div><!--conteiner-tec-->
-    
+        <div class="clear"></div><!--clear-->
+        </div><!--center-->
+    </section>
+
+
+    <section class="projetos">
+        <div class="center">
+        <div class="wraper-title">
+                <div class=bullet></div><!--bullet-->
+                <div class="clear"></div>
+                    <div class="title">
+                        <h2>Projetos</h2>
+                    </div><!--title-->
+            </div><!--wraper-title-->
+
+
+            <div class="container-projetos">
+                <div class="arrow-left">
+                    <<
+                </div><!--arrow-left-->
+
+                <div class="clear"></div><!--clear-->
+                    <div class="projetos-single">
+                        <div class="img-projeto"></div><!--img-projeto-->
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio porro nemo illo laboriosam ad obcaecati ea a voluptates maiores aliquid.</p>
+
+                        <div class="button-projeto"><a href="htpps//:www.github.com/charleeslemes">GitHub</a></div><!--button-projeto-->
+
+                    </div><!--projetos-single-->
+                    <div class="arrow-right">
+                        >>
+                        <div class="clear"></div><!--clear-->
+                    </div><!--arrow-right-->
+            </div><!--continer-projetos-->
+
+
         </div><!--center-->
     </section>
 
