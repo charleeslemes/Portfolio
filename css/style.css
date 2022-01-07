@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Spline Sans;
+}
+
+
+html,body{
+    height: 100%;
+    background-color: #0e0f10;
+    overflow-X: hidden;
+ 
+   
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+}
+
+.logo{
+    float: left;
+    margin: 0px 75px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.logo span{
+    font-size: 60px;
+}
+
+nav.menu-desktop{
+    float: right;
+    margin: 33px 75px;
+}
+
+nav.menu-desktop ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 60px;
+}
+
+nav.menu-desktop ul li:nth-last-of-type(1){
+    padding-right: 0;
+}
+
+nav.menu-desktop ul li a{
+    font-size: 23px;
+    color: white;
+  text-decoration: none;
+}
+
+
+
+nav.menu-mobile{
+    display: none;
+}
+
+section.main{
+    margin-top: 40px;
+    width: 100%;
+}
+
+section.main .conteudo-sobre{
+    float: left;
+    width: 50%;
+}
+
+.conteudo-sobre .dev{
+    margin-top: 90px;
+    border-left: 2px solid #2f1985;
+    padding: 0 5px;
+    color: white;
+    font-weight: normal;
+    font-size: 22px;
+
+}
+
+.conteudo-sobre .title-autor{
+    margin-top: 50px;
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+    padding: 0 5px;
+}
+
+
+.conteudo-sobre p{
+    margin-top: 15px;
+    color: white;
+    padding: 0 5px;
+    max-width: 430px;
+    font-size: 16px;
+}
+
+.conteudo-sobre .button{
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #2f1985;
+}
+
+.conteudo-sobre .button a{
+ color: white;
+ text-decoration: none;
+ font-size: 18px;
+}
+
+
+section.main .banner{
+    margin-top: 13px;
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+.banner .banner-top{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.banner .banner-top .img-html5{
+    float: left;
+    width: 75px;
+    height: 75px;
+    background-image: url('../images/logo-html.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banner .banner-top .img-css3{
+    margin-top: 20px;
+    float: right;
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/logo-css.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.banner .banner-center{
+    width: 100%;
+}
+
+.banner .banner-center .img-fundo{
+    margin: 10px auto;
+    width: 370px;
+    height: 370px;
+    background-image: url('../images/vector.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0px;
+    transform: rotate(-25deg);
+  
+}
+
+.banner .banner-center .img-frente{
+    z-index: 1;
+    margin: 0 auto;
+    width: 450px;
+    height: 450px;
+    background-image: url('../images/image-top.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    position: absolute;
+    top: -10px;
+    left: 9%; 
+}
+
+
+.banner .banner-bottom{
+    position: relative;
+    width: 100%;
+}
+
+.banner .banner-bottom .img-js{
+    position: absolute;
+    top: -35px;
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    background-image: url('../images/logo-js.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+section.tec{
+    width: 100%;
+    margin-top: 50px;
+}
+
+section.tec .wraper-title{
+    padding-top: 100px;
+    margin-bottom: 60px;
+    max-width: 180px;
+    
+    
+
+}
+
+section.tec .wraper-title .bullet{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #2f1985 ;
+    float: right;
+
+}
+
+section.tec .wraper-title .title h2{
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+section.tec .container-tec{
+    width: 100%;
+}
+
+
+section.tec .tec-single{
+    text-align: center;
+    float: left;
+    width: 25%;
+    color: white;
+}
+
+section.tec .tec-single .img-tec{
+    padding-top: 30%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+
+section.tec .tec-single p{
+    margin-top: 10px;
+   
+}
+
+
