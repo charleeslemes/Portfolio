@@ -315,6 +315,8 @@ section.projetos .arrow-left{
     padding-left: 5px;
     line-height: 100px;
     background-color: rgba(51,51,51,0.3);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
 
 }
 
@@ -330,6 +332,8 @@ section.projetos .arrow-right{
     padding-left: 5px;
     line-height: 100px;
     background-color: rgba(51,51,51,0.3);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 
 }
 
@@ -342,7 +346,7 @@ section.projetos .projetos-single{
 
 
 section.projetos .projetos-single .img-projeto{
-    background-image: url('../images/projeto-viagem.jpg');
+    
     background-position: center;
     background-size: cover;
     padding-top: 80%;

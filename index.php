@@ -142,7 +142,7 @@
 
                 <div class="clear"></div><!--clear-->
                     <div class="projetos-single">
-                        <div class="img-projeto"></div><!--img-projeto-->
+                        <div style="background-image: url('images/projeto-viagem.jpg');" class="img-projeto"></div><!--img-projeto-->
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio porro nemo illo laboriosam ad obcaecati ea a voluptates maiores aliquid.</p>
 
