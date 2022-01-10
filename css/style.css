@@ -67,7 +67,42 @@ nav.menu-desktop ul li a{
 
 nav.menu-mobile{
     display: none;
+    float: right;
+    margin-top: -45px;
+    margin-right: 40px;
+    cursor: pointer;
+	width: 32px;
+	height: 32px;
+	background-image: url('../images/menu.png');
+	background-size: 100% 100%;
+    
 }
+nav.menu-mobile ul{
+    display: none;
+    position: absolute;
+    transition: 1s;
+    background-color: #2f1985 ;
+    top: 70px;
+    left: -18px;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav.menu-mobile ul li {
+    padding: 10px;
+    border: 1px solid #15084d;
+
+}
+
+nav.menu-mobile ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+    
+
+}
+
 
 section.main{
     margin-top: 40px;
@@ -298,7 +333,6 @@ section.projetos .wraper-title .title h2{
 section.projetos .container-projetos{
     width: 100%;
     margin-top: 30px;
-    
     position: relative;
 }
 
@@ -387,6 +421,31 @@ section.projetos .projetos-single .button-projeto a{
 
 
 
+@media screen and (max-width: 1120px){
+    section.projetos .arrow-left{
+        left: 10%;
+ 
+    }
+
+    section.projetos .arrow-right{
+        right: 10%;
+ 
+    }
+}
+
+@media screen and (max-width: 980px){
+    section.projetos .arrow-left{
+        left: 5%;
+ 
+    }
+
+    section.projetos .arrow-right{
+        right: 5%;
+ 
+    }
+}
+
+
 
 
 /*deseing responsivel*/
@@ -401,6 +460,36 @@ section.projetos .projetos-single .button-projeto a{
         left: 0; 
     }
 }
+
+
+@media screen and (max-width: 980px){
+    section.projetos .arrow-left{
+        left: 0%;
+ 
+    }
+
+    section.projetos .arrow-right{
+        right: 0%;
+ 
+    }
+}
+
+
+
+@media screen and (max-width: 980px){
+    section.projetos .arrow-left{
+        left: -1%;
+ 
+    }
+
+    section.projetos .arrow-right{
+        right: -1%;
+ 
+    }
+}
+
+
+
 
 @media screen and (max-width: 830px){
     nav.menu-desktop{
@@ -419,15 +508,16 @@ section.projetos .projetos-single .button-projeto a{
        display: none;
     }
 
+    nav.menu-mobile{
+        display: block;
+    }
+
 
     .banner .banner-center .img-frente{
 
         left: -15%; 
     }
-}
 
-
-@media screen and (max-width: 730px){
 
     section.main .conteudo-sobre{
         float: none;
@@ -445,7 +535,8 @@ section.projetos .projetos-single .button-projeto a{
     }
 
     .conteudo-sobre .dev{
-        margin: 30px auto;
+        margin: 50px auto;
+        margin-bottom: 50px;
         border: 0;
         max-width: 300px;
         padding: 5px 0;
@@ -453,37 +544,72 @@ section.projetos .projetos-single .button-projeto a{
     
     }
 
-
-    .banner .banner-top .img-html5{
-        float: none;
-   display: none;
-    }
-    
-    .banner .banner-top .img-css3{
-        display: none;
-        float: none;
-    }
-    
-    
-    .banner .banner-center .img-fundo{
-        display: none;
-      
-    }
-    
-
-
-    .banner .banner-center .img-frente{
-        display: none;
- 
-    }
- 
-    .banner .banner-bottom .img-js{
-        display: none;
-
-    }   
-
     section.main .banner{
         display: none;
+        float: none;
     }
     
+    section.tec .tec-single .img-tec{
+        padding-top: 50%;
+        background-position: center;
+  
+       
+    }
+
+    section.projetos .projetos-single{
+      
+         max-width: 500px;
+        
+     }
+
+     section.projetos .arrow-left{
+        left: 0;
+ 
+    
+    }
+    section.projetos .arrow-right{
+        right: 0;
+ 
+    
+    }
+
+
 }
+
+
+@media screen and (max-width: 680px){
+    section.projetos .projetos-single{
+      
+        max-width: 400px;
+       
+    }
+}
+
+@media screen and (max-width: 575px){
+    section.projetos .projetos-single{
+      
+        max-width: 300px;
+       
+    }
+
+
+    section.projetos .arrow-left{
+        width: 50px;
+        height: 90px;
+        padding-left: 10px;
+        line-height: 90px;
+        font-size: 30px;
+ 
+    
+    }
+    section.projetos .arrow-right{
+        width: 50px;
+        height: 90px;
+        padding-left: 10px;
+        line-height: 90px;
+        font-size: 30px;
+ 
+    
+    }
+}
+
