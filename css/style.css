@@ -384,3 +384,106 @@ section.projetos .projetos-single .button-projeto a{
     height: 100%;
 
 }
+
+
+
+
+
+/*deseing responsivel*/
+@media screen and (max-width: 920px){
+    nav.menu-desktop{
+        margin: 33px 20px;
+    }
+
+
+    .banner .banner-center .img-frente{
+
+        left: 0; 
+    }
+}
+
+@media screen and (max-width: 830px){
+    nav.menu-desktop{
+        margin: 33px 3px;
+    }
+
+    .banner .banner-center .img-frente{
+
+        left: -10%; 
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    nav.menu-desktop{
+       display: none;
+    }
+
+
+    .banner .banner-center .img-frente{
+
+        left: -15%; 
+    }
+}
+
+
+@media screen and (max-width: 730px){
+
+    section.main .conteudo-sobre{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .conteudo-sobre p{
+      max-width: none;
+    }
+
+    .conteudo-sobre .button{
+        margin: 25px auto;
+
+    }
+
+    .conteudo-sobre .dev{
+        margin: 30px auto;
+        border: 0;
+        max-width: 300px;
+        padding: 5px 0;
+        border-bottom: 2px solid #2f1985;
+    
+    }
+
+
+    .banner .banner-top .img-html5{
+        float: none;
+   display: none;
+    }
+    
+    .banner .banner-top .img-css3{
+        display: none;
+        float: none;
+    }
+    
+    
+    .banner .banner-center .img-fundo{
+        display: none;
+      
+    }
+    
+
+
+    .banner .banner-center .img-frente{
+        display: none;
+ 
+    }
+ 
+    .banner .banner-bottom .img-js{
+        display: none;
+
+    }   
+
+    section.main .banner{
+        display: none;
+    }
+    
+}
