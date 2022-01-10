@@ -63,6 +63,9 @@ nav.menu-desktop ul li a{
   text-decoration: none;
 }
 
+nav.menu-desktop ul li a:hover{
+    color: #2f1985;
+}
 
 
 nav.menu-mobile{
