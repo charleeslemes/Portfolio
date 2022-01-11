@@ -376,6 +376,7 @@ section.projetos .arrow-right{
 }
 
 section.projetos .projetos-single{
+    display: none;
    background-color: rgb(51,51,51);
     width: 100%;
     max-width: 600px;
