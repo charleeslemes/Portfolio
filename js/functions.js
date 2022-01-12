@@ -1,20 +1,19 @@
 /*usando jquery*/
 
 $(function(){
-  const  botaoMenuMobile = $('nav.menu-mobile');
-    menuMobile();
+    const  botaoMenuMobile = $('nav.menu-mobile');
+      menuMobile();
+  
+     function menuMobile (){
+      botaoMenuMobile.click(function(){
+          let mostrarMenu = $('nav.menu-mobile ul');
+          mostrarMenu.slideToggle();
+      })
+     }
+  
+  })
+  
 
-   function menuMobile (){
-    botaoMenuMobile.click(function(){
-        let mostrarMenu = $('nav.menu-mobile ul');
-        mostrarMenu.slideToggle();
-    })
-   }
-
-})
-
-
-/* vanilla js */
 
     var btnRight = document.querySelector('section.projetos .arrow-right');
     var btnLeft = document.querySelector('section.projetos .arrow-left');
@@ -33,8 +32,8 @@ $(function(){
                 imgsSlider1[lastImg].style.display="none";
                 imgsSlider1[index].style.display="block";
                 
-            })
 
+            })
             btnLeftVoltar++;
         })
     }
