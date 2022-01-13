@@ -17,35 +17,45 @@ $(function(){
 
     var btnRight = document.querySelector('section.projetos .arrow-right');
     var btnLeft = document.querySelector('section.projetos .arrow-left');
-    var imgsSlider1 = document.querySelectorAll('section.projetos .projetos-single');
-    var imgsSlider2 = document.querySelectorAll('section.projetos .projetos-single');
-    var lastImg = 0;
+    var imgsSlider = document.querySelectorAll('section.projetos .projetos-single');
+   
+    
     var btnLeftVoltar = 0;
-
+ 
+  var lastIndex=0;
     frete();
-    voltar();
+   
 
 
     function frete(){
-        imgsSlider1.forEach((itens,index)=>{
+        imgsSlider.forEach((itens,index)=>{
             btnRight.addEventListener('click',()=>{
-                imgsSlider1[lastImg].style.display="none";
-                imgsSlider1[index].style.display="block";
-                
+                var lastImage  = document.querySelectorAll('section.projetos .projetos-single')[lastIndex];
+                var actualImage = document.querySelectorAll('section.projetos .projetos-single')[index];
 
+
+                lastImage.style.opacity =0;
+                actualImage.style.opacity = 1;
+        
+                lastImg = index;
+        
+                
             })
             btnLeftVoltar++;
+
+
+        
         })
     }
 
 
 
-        function voltar(){
+      /*  function voltar(){
             btnLeftVoltar = btnLeftVoltar-1;
-            imgsSlider2.forEach((itens,index)=>{
+            imgsSlider.forEach((itens,index)=>{
                 btnLeft.addEventListener('click',()=>{
-                    imgsSlider2[index].style.display="none";
-                    imgsSlider2[btnLeftVoltar].style.display="block";
+                    imgsSlider[index].style.display="none";
+                    imgsSlider[btnLeftVoltar].style.display="block";
     
                    if(btnLeftVoltar != 0){
                     btnLeftVoltar = btnLeftVoltar-1;
@@ -55,7 +65,7 @@ $(function(){
                     
                 })
             })
-        }
+        }*/
    
        
 
