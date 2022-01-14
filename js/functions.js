@@ -21,15 +21,17 @@ $(function(){
    
     
     var btnLeftVoltar = 0;
- 
-  var lastIndex=0;
-    frete();
-   
 
 
-    function frete(){
+
+    var lastIndex=0;
+
+
+    document.querySelector('section.projetos .arrow-right')
+    .addEventListener('click',()=>{
         imgsSlider.forEach((itens,index)=>{
-            btnRight.addEventListener('click',()=>{
+           
+           
                 var lastImage  = document.querySelectorAll('section.projetos .projetos-single')[lastIndex];
                 var actualImage = document.querySelectorAll('section.projetos .projetos-single')[index];
 
@@ -37,16 +39,15 @@ $(function(){
                 lastImage.style.opacity =0;
                 actualImage.style.opacity = 1;
         
-                lastImg = index;
-        
+                lastIndex = index;
+
+                console.log(value);
                 
             })
-            btnLeftVoltar++;
-
-
+          
         
         })
-    }
+    
 
 
 
