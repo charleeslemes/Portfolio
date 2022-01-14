@@ -12,7 +12,10 @@ $(function(){
      }
   
   })
+
+
   
+  /*usando vanilla */
 
 
     var btnRight = document.querySelector('section.projetos .arrow-right');
@@ -58,24 +61,6 @@ $(function(){
     
 
 
-
-      /*  function voltar(){
-            btnLeftVoltar = btnLeftVoltar-1;
-            imgsSlider.forEach((itens,index)=>{
-                btnLeft.addEventListener('click',()=>{
-                    imgsSlider[index].style.display="none";
-                    imgsSlider[btnLeftVoltar].style.display="block";
-    
-                   if(btnLeftVoltar != 0){
-                    btnLeftVoltar = btnLeftVoltar-1;
-                   }else{
-                    btnLeftVoltar = btnLeftVoltar+1;
-                   }
-                    
-                })
-            })
-        }*/
-   
        
 
   
