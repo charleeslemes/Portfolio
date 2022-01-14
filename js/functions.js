@@ -16,7 +16,6 @@ $(function(){
 
 
     var btnRight = document.querySelector('section.projetos .arrow-right');
-    var btnLeft = document.querySelector('section.projetos .arrow-left');
     var imgsSlider = document.querySelectorAll('section.projetos .projetos-single');
    
     
@@ -26,14 +25,23 @@ $(function(){
 
     var lastIndex=0;
 
-
-    document.querySelector('section.projetos .arrow-right')
+    imgsSlider.forEach((itens,index)=>{
+    document.querySelectorAll('section.projetos .bullet-single')[index]
     .addEventListener('click',()=>{
-        imgsSlider.forEach((itens,index)=>{
+       
            
            
                 var lastImage  = document.querySelectorAll('section.projetos .projetos-single')[lastIndex];
                 var actualImage = document.querySelectorAll('section.projetos .projetos-single')[index];
+
+
+                document.querySelectorAll('.bullet-single')[lastIndex]
+                .classList.remove('active-bullet');
+        
+        
+                ;
+                document.querySelectorAll('.bullet-single')[index]
+                .classList.add('active-bullet');
 
 
                 lastImage.style.opacity =0;
