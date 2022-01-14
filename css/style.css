@@ -579,17 +579,31 @@ section.projetos .projetos-single .button-projeto a{
 @media screen and (max-width: 680px){
     section.projetos .projetos-single{
       
-        max-width: 400px;
+        max-width: 500px;
        
+    }
+    section.projetos .projetos-single .img-projeto{
+    
+        padding-top: 80%;
+      
+        
     }
 }
 
 @media screen and (max-width: 575px){
     section.projetos .projetos-single{
       
-        max-width: 300px;
+        max-width: 500px;
        
     }
+
+    section.projetos .projetos-single .img-projeto{
+    
+        padding-top: 80%;
+      
+        
+    }
+    
 
 
     section.projetos .arrow-left{

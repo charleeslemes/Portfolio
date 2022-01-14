@@ -29,6 +29,7 @@ $(function(){
     var lastIndex=0;
 
     imgsSlider.forEach((itens,index)=>{
+   
     document.querySelectorAll('section.projetos .bullet-single')[index]
     .addEventListener('click',()=>{
        
@@ -52,12 +53,19 @@ $(function(){
         
                 lastIndex = index;
 
-                console.log(value);
+         
                 
             })
           
         
         })
+
+  
+  
+
+ 
+                  
+        
     
 
 
