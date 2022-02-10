@@ -284,6 +284,7 @@ section.tec .container-tec{
 
 section.tec .tec-single{
     text-align: center;
+    padding: 15px;
     float: left;
     width: 25%;
     color: white;
@@ -349,9 +350,10 @@ section.projetos .container-projetos{
     margin: 0 8px;
     cursor: pointer;
     display: inline-block;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
     background-color: #ccc;
 
   
