@@ -17,8 +17,7 @@
         <nav class="menu-desktop">
             <ul>
                 <li><a href="">Tecnologias</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Sobre</a></li>
+                <li><a class="button-link" href="">Projetos</a></li>
             </ul>
 
         </nav><!--menu-desktop-->
@@ -43,16 +42,16 @@
         <div class="center">
             <div class="conteudo-sobre">
 
-                <h2 class="dev">Desenvolvedor Front-end</h2>
+                <h2 class="dev">Desenvolvedor Front-end Junior</h2>
     
-                <h2 class="title-autor"> Charles Gabriel Lemes</h2>
+                <h2 class="title-autor"> Olá, sou Charles Gabriel Lemes</h2>
 
-                <p>Estou começando na jornada de ser um programador front-end, sempre busco deixar minhas aplicações mais responsiveis possivel, para que todos os tipos de usúarios tenham uma experiência boa, procuro sempre estar sempre aprendendo, para sempre poder estar aperfeiçoando minhas tecnicas de programador e podendo assim trazer soluções mais simples e funcionais.
+                <p> Estou começando na jornada de ser um desenvolvedor Front-end, sou formado em análise e desenvolvimentos de sistemas, sempre estou procurando aprender cada fez mais, fazendo vários cursos que possam me ajudar nesta jornada, já fiz alguns projetos particulares para poder colocar em pratica o que eu aprendi até agora.
                 </p>
                 
 
 
-                <div class="button"><a target=_blank href="https://github.com/charleeslemes">GitHub</a></div><!--github-buttom-->
+             
 
             </div><!--conteudo-sobre-->
 
@@ -85,7 +84,7 @@
 
 
     <section class="tec">
-        <div class="center">
+       <div class="center">
             <div class="wraper-title">
                 <div class=bullet></div><!--bullet-->
                 <div class="clear"></div>
@@ -94,6 +93,7 @@
                     </div><!--title-->
 
             </div><!--wraper-title-->
+       
 
         <div class="container-tec">
             <div  class="tec-single">
@@ -123,9 +123,58 @@
 
 
         </div><!--conteiner-tec-->
+    </div><!--center-->
         <div class="clear"></div><!--clear-->
-        </div><!--center-->
+       
     </section>
+
+
+
+    <section class="diferenciais">
+        <div class="center">
+      
+
+            <div class="wraper-title">
+                <div class=bullet></div><!--bullet-->
+                <div class="clear"></div>
+                    <div class="title">
+                        <h2>Diferenciais</h2>
+                    </div><!--title-->
+
+            </div><!--wraper-title-->
+
+        
+
+            <div class="container-diferenciais">
+
+                <div class="diferencias-single">
+                 <div class="img-deferencias">
+                    <img style="width:60px; height:50px;" src="images/tag.png"/>
+                    </div><!--img-diferencias-->
+                    <div class="text-diferenciais">
+                        <h3>Desing responsivo</h3>
+                        <p> Estou sempre tentando deixa a aplicação o mais responsivo possível, para que o usuário tenha uma experiência agradável ao usar a aplicação. </p>
+                    </div><!--text-diferenciais-->
+   
+                </div><!--diferenciais-single-->
+
+
+                <div class="diferencias-single">
+                    <div class="img-deferencias">
+                       <img style="width:60px; height:50px;" src="images/tag.png"/>
+                       </div><!--img-diferencias-->
+                       <div class="text-diferenciais">
+                           <h3>Clean Code</h3>
+                           <p> Sempre tendo de deixar meu código o mais clean possível, sempre mantendo um código organizado e fácil de se entender. </p>
+                       </div><!--text-diferenciais-->
+      
+                   </div><!--diferenciais-single-->
+
+
+            </div><!--container-diferencial-->
+        </div><!--center-->
+    </section><!--diferenciais-->
+
 
 
     <section class="projetos">
@@ -225,5 +274,36 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/functions.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script>
+        
+$('.container-tec').slick({
+    dots: true,
+    arrows: false,
+    speed:1000,
+    slidesToShow:4,
+    slidesToScroll:1,
+    autoplay:true,
+    autoplaySpeed: 3000,
+    pauseOnHover:false,
+  
+});
+
+$('.container-diferenciais').slick({
+    dots: true,
+    arrows: false,
+    speed:1000,
+    slidesToShow:1,
+    slidesToScroll:1,
+    autoplay:true,
+    autoplaySpeed: 5000,
+    pauseOnHover:false,
+  
+});
+
+
+</script>
+    </script>
 </body>
 </html>

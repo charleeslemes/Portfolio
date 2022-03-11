@@ -9,7 +9,7 @@
 html,body{
     height: 100%;
     background-color: #0e0f10;
-    overflow-X: hidden;
+    overflow-x: hidden;
  
    
 }
@@ -61,11 +61,25 @@ nav.menu-desktop ul li a{
     font-size: 23px;
     color: white;
   text-decoration: none;
+  transition: all 0.4s;
+  padding: 10px 15px;
+  border: 2px solid #463785;
+  
+  border-radius: 5px;
 }
 
-nav.menu-desktop ul li a:hover{
-    color: #2f1985;
+.menu-desktop .button-link{
+    padding: 10px 15px;
+    background-color: #463785;
+    border-radius: 5px;
+    
 }
+
+.menu-desktop a:hover{
+    box-shadow: 0 0 15px #463785;
+}
+
+
 
 
 nav.menu-mobile{
@@ -139,9 +153,10 @@ section.main .conteudo-sobre{
     margin-top: 15px;
     color: white;
     padding: 0 5px;
-    max-width: 430px;
+    max-width: 450px;
     font-size: 16px;
     line-height: 25px;
+    text-align: justify;
 }
 
 .conteudo-sobre .button{
@@ -278,20 +293,23 @@ section.tec .wraper-title .title h2{
 }
 
 section.tec .container-tec{
-    width: 100%;
+ padding: 40px 0;
+ overflow: hidden;
 }
 
 
 section.tec .tec-single{
-    text-align: center;
-    padding: 15px;
     float: left;
     width: 25%;
+    padding: 30px;
+    margin-right: -90px;
+    text-align: center;
     color: white;
 }
 
 section.tec .tec-single .img-tec{
-    padding-top: 30%;
+    
+    padding-top: 20%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -303,6 +321,102 @@ section.tec .tec-single p{
     margin-top: 10px;
    
 }
+
+section.diferenciais{
+    margin-top: 70px;
+    padding: 40px 0;
+}
+
+
+section.diferenciais .wraper-title{
+    padding-top: 100px;
+    margin-bottom: 60px;
+    max-width: 180px;
+    
+    
+
+}
+
+section.diferenciais .wraper-title .bullet{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #2f1985 ;
+    float: right;
+
+}
+
+section.diferenciais .wraper-title .title h2{
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+
+
+
+.container-diferenciais{
+   max-width: 700px;
+    margin: 50px auto;
+    padding: 40px 0;
+    overflow: hidden;
+    padding-left: 20px;
+    
+}
+
+.diferencias-single{
+    width: 100%;
+    padding: 20px 20px;
+    float: left;
+    box-shadow: 0 0 15px rgb(51, 47, 47);
+    border-radius:10px;
+    margin: 0 15px;
+    
+  
+}
+
+.img-deferencias{
+    width: 20%;
+    float: left;
+    padding: 0 25px ;
+    align-items: center;
+}
+
+.text-diferenciais{
+    float: right;
+    margin: 0 auto;
+    width: 80%;
+    color:white;
+    text-align: center;
+}
+
+.text-diferenciais h3{
+    font-weight: normal;
+    font-size: 20px;
+    max-width: 450px;
+    
+}
+    .text-diferenciais p{
+        max-width: 450px;
+        margin-top:5px;
+        text-align: justify;
+        font-weight: normal;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 section.projetos{
     margin-top: 40px;
@@ -628,3 +742,49 @@ section.projetos .projetos-single .button-projeto a{
     }
 }
 
+
+/*slick slider*/
+
+
+.slick-list{
+    margin-left: -27px;
+}
+
+/*slick slider*/
+
+.slick-dotted ul{
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    top:30px;
+    
+}
+
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 7px;
+
+}
+
+.slick-dotted button:focus{
+    outline: 0;
+}
+
+
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    color: #d8d8d8;
+    border-width: 0;
+    background-color: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+li.slick-active button{
+    background-color: #2f1985;;
+    color: #2f1985;
+}
