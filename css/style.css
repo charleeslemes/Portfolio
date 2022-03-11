@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Spline Sans;
+     font-family: Abel;
+   /* font-family: Spline Sans;*/
 }
 
 
@@ -62,16 +63,17 @@ nav.menu-desktop ul li a{
     color: white;
   text-decoration: none;
   transition: all 0.4s;
-  padding: 10px 15px;
+  padding: 5px 25px;
   border: 2px solid #463785;
   
   border-radius: 5px;
 }
 
 .menu-desktop .button-link{
-    padding: 10px 15px;
+   
     background-color: #463785;
     border-radius: 5px;
+    
     
 }
 
@@ -136,7 +138,7 @@ section.main .conteudo-sobre{
     padding: 0 5px;
     color: white;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 27px;
 
 }
 
@@ -144,8 +146,9 @@ section.main .conteudo-sobre{
     margin-top: 50px;
     color: white;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 30px;
     padding: 0 5px;
+    font-family: Abel;
 }
 
 
@@ -153,8 +156,9 @@ section.main .conteudo-sobre{
     margin-top: 15px;
     color: white;
     padding: 0 5px;
+    font-family: Abel;
     max-width: 450px;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 25px;
     text-align: justify;
 }
@@ -287,7 +291,7 @@ section.tec .wraper-title .bullet{
 
 section.tec .wraper-title .title h2{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: normal;
 
 }
@@ -348,7 +352,7 @@ section.diferenciais .wraper-title .bullet{
 
 section.diferenciais .wraper-title .title h2{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: normal;
 
 }
@@ -361,7 +365,7 @@ section.diferenciais .wraper-title .title h2{
     margin: 50px auto;
     padding: 40px 0;
     overflow: hidden;
-    padding-left: 20px;
+    padding-left: 30px;
     
 }
 
@@ -389,12 +393,14 @@ section.diferenciais .wraper-title .title h2{
     width: 80%;
     color:white;
     text-align: center;
+    
 }
 
 .text-diferenciais h3{
     font-weight: normal;
-    font-size: 20px;
+    font-size: 23px;
     max-width: 450px;
+    font-family: Abel;
     
 }
     .text-diferenciais p{
@@ -402,7 +408,8 @@ section.diferenciais .wraper-title .title h2{
         margin-top:5px;
         text-align: justify;
         font-weight: normal;
-        font-size: 15px;
+        font-family: Abel;
+        font-size: 18px;
     }
 
 
@@ -442,7 +449,7 @@ section.projetos .wraper-title .bullet{
 
 section.projetos .wraper-title .title h2{
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: normal;
 
 }
