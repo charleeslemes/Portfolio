@@ -314,7 +314,7 @@ section.tec .tec-single{
 
 section.tec .tec-single .img-tec{
     
-    padding-top: 30%;
+    padding-top: 25%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -446,7 +446,7 @@ section.projetos .wraper-title .title h2{
 .container-projetos{
     width: 100%;
     display: flex;
-    padding: 40px 0;
+    padding: 20px 0;
     flex-direction: column;
 }
 
@@ -475,7 +475,7 @@ section.projetos .wraper-title .title h2{
     color: white;
     text-align: justify;
     padding: 0 15px;
-    max-width: 400px;
+    max-width: 450px;
     font-size: 17px;
 }
 
@@ -504,13 +504,35 @@ section.projetos .wraper-title .title h2{
     width: 60%;
     box-shadow: 0 0 10px rgb(59, 58, 58);
     padding-top: 20%;
-    background-position: 100% 100%;
+    background-position: center;
     background-size: cover;
     border-radius: 8px;
   
 }
 
+footer{
+    display: flex;
+    margin-top: 50px;
+    border-top: 2px solid #463785;
+    box-shadow: 0 0 5px rgb(49, 46, 46);
+    justify-content: space-around;
+}
 
+footer .redes-sociais{
+    margin: 30px 0;
+}
+
+footer .redes-sociais i{
+    font-size: 37px;
+    color: white;
+    cursor: pointer;
+    margin: 0 15px;
+    transition:  all .3s;
+}
+
+footer .redes-sociais i:hover{
+    color: #463785;
+}
 
 
 
@@ -565,6 +587,32 @@ section.projetos .wraper-title .title h2{
         right: -1%;
  
     }
+
+    .projeto-single{
+        margin-top: 60px;
+        margin-bottom: 30px;
+       display: block;
+       border: 1px solid #463785;
+       border-radius: 10px;
+    }
+
+    .projeto-single .texto-projeto{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .projeto-single .img-projeto{
+        padding-top: 35%;
+        width: 100%;
+        
+    }
+
+    .projeto-single .texto-projeto p{
+        max-width: 600px;
+    }
+
+    
+    
 }
 
 
@@ -672,6 +720,10 @@ section.projetos .wraper-title .title h2{
         right: 0;
  
     
+    }
+
+    .projeto-single .img-projeto{
+        padding-top: 45%;
     }
 
 
