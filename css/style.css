@@ -20,7 +20,7 @@ html,body{
 }
 
 .center{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -62,7 +62,7 @@ nav.menu-desktop ul li a{
     font-size: 23px;
     color: white;
   text-decoration: none;
-  transition: all 0.4s;
+  transition: all 0.3s;
   padding: 5px 25px;
   border: 2px solid #463785;
   
@@ -161,6 +161,7 @@ section.main .conteudo-sobre{
     font-size: 19px;
     line-height: 25px;
     text-align: justify;
+   
 }
 
 .conteudo-sobre .button{
@@ -305,7 +306,7 @@ section.tec .container-tec{
 section.tec .tec-single{
     float: left;
     width: 25%;
-    padding: 30px;
+    padding: 25px;
     margin-right: -90px;
     text-align: center;
     color: white;
@@ -313,7 +314,7 @@ section.tec .tec-single{
 
 section.tec .tec-single .img-tec{
     
-    padding-top: 20%;
+    padding-top: 30%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -361,78 +362,66 @@ section.diferenciais .wraper-title .title h2{
 
 
 .container-diferenciais{
-   max-width: 700px;
-    margin: 50px auto;
-    padding: 40px 0;
-    overflow: hidden;
-    padding-left: 30px;
-    
-}
-
-.diferencias-single{
     width: 100%;
-    padding: 20px 20px;
-    float: left;
-    box-shadow: 0 0 15px rgb(51, 47, 47);
-    border-radius:10px;
-    margin: 0 15px;
-    
-  
+    padding: 40px 0;
 }
 
-.img-deferencias{
-    width: 20%;
-    float: left;
-    padding: 0 25px ;
-    align-items: center;
-}
 
-.text-diferenciais{
-    float: right;
+.container-diferenciais .wraper-diferencial{
     margin: 0 auto;
-    width: 80%;
-    color:white;
-    text-align: center;
+    display: flex;
     
 }
 
-.text-diferenciais h3{
-    font-weight: normal;
+
+.wraper-diferencial .diferencial-box:nth-last-of-type(2){
+  position: relative;
+  top: -43px;
+}
+
+
+.wraper-diferencial .diferencial-box{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 33.3%;
+    box-shadow: 0 0 15px  rgb(105, 99, 99);
+    margin:  20px;
+   
+   
+}
+
+.wraper-diferencial .img-diferencial{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.wraper-diferencial .img-diferencial h3{
+    padding: 0 15px;
     font-size: 23px;
-    max-width: 450px;
-    font-family: Abel;
-    
+    text-align: center;
+
 }
-    .text-diferenciais p{
-        max-width: 450px;
-        margin-top:5px;
-        text-align: justify;
-        font-weight: normal;
-        font-family: Abel;
-        font-size: 18px;
-    }
 
-
-
-
-
-
-
-
-
+.wraper-diferencial .text-diferencial{
+    margin-top: 15px;
+    padding: 0 18px;
+    text-align: left;
+    margin-bottom: 15px;
+}
 
 
 
 
 
 section.projetos{
-    margin-top: 40px;
 }
 
 section.projetos .wraper-title{
     padding-top: 100px;
     margin-bottom: 60px;
-    max-width: 130px;
+    max-width: 260px;
     
     
 
@@ -454,118 +443,77 @@ section.projetos .wraper-title .title h2{
 
 }
 
-
-section.projetos .container-projetos{
+.container-projetos{
     width: 100%;
+    display: flex;
+    padding: 40px 0;
+    flex-direction: column;
+}
+
+.projeto-single{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.texto-projeto{
+    width: 40%;
+}
+
+.texto-projeto h3{
     margin-top: 30px;
-    position: relative;
-}
-
-
-.bullets{
     text-align: center;
-  }
-
-  .bullet-single{
-    z-index: 99;
-    margin: 0 8px;
-    cursor: pointer;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 5px;
-    background-color: #ccc;
-
-  
-  }
-
-  .active-bullet{
-    background-color: #2f1985;
-  }
-
-
-
-section.projetos .projetos-single{
-    margin-top: 15px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    opacity: 0;
-    transform:translateX(-50%);
-    -ms-transform:translateX(-50%);
-    max-height: 800px;
-    width: 100%;
-    max-width: 600px;
-}
-
-
-section.projetos .projetos-single .img-projeto{
-    
-    background-position: center;
-    background-size: cover;
-    padding-top: 80%;
-    margin: 15px;
-    
-}
-
-section.projetos .projetos-single p{
-    margin: 0 auto;
-    max-width: 500px;
-    color:white;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 27px;
-    text-align: center;
-}
-
-section.projetos .projetos-single .button-projeto{
-    
-    width: 50%;
-    height: 40px;
-    line-height: 40px;
-    background-color: #2f1985;
-    text-align: center;
-    margin: 20px auto;
-    border-radius: 20px;
-    
-
-}
-
-
-section.projetos .projetos-single .button-projeto a{
     color: white;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
+    font-weight: normal;
+    font-size: 23px;
 
 }
 
 
-
-@media screen and (max-width: 1120px){
-    section.projetos .arrow-left{
-        left: 10%;
- 
-    }
-
-    section.projetos .arrow-right{
-        right: 10%;
- 
-    }
+.texto-projeto p{
+    margin-top: 20px;
+    color: white;
+    text-align: justify;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 40px;
 }
 
-@media screen and (max-width: 980px){
-    section.projetos .arrow-left{
-        left: 5%;
- 
-    }
 
-    section.projetos .arrow-right{
-        right: 5%;
- 
-    }
+.texto-projeto a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 35px;
+	border:  2px solid #463785;
+    font-size:19px;
+    border-radius:10px;
+    transition: all .3s;
+	
 }
+
+.btnCodigo{
+   text-align: center;
+}
+
+.texto-projeto a:hover{
+    box-shadow: 0 0 15px #463785;
+}
+
+
+.img-projeto{
+    width: 60%;
+    box-shadow: 0 0 5px rgb(59, 58, 58);
+    padding-top: 20%;
+    background-image: url('../images/projeto-random.jpg');
+    background-position: 100% 50%;
+    background-size: cover;
+    border-radius: 8px;
+  
+}
+
+
+
+
 
 
 
@@ -594,6 +542,16 @@ section.projetos .projetos-single .button-projeto a{
         right: 0%;
  
     }
+
+    .img-diferencial h3{
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .wraper-diferencial .img-diferencial{
+       margin-left: 0;
+    }
+
 }
 
 
@@ -622,6 +580,28 @@ section.projetos .projetos-single .button-projeto a{
 
         left: -10%; 
     }
+
+    .container-diferenciais .wraper-diferencial{
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    .wraper-diferencial .diferencial-box{
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+
+    }
+
+    .wraper-diferencial .diferencial-box:nth-last-of-type(2){
+        top: 0;
+    }
+
+    .diferencial-box .text-diferencial{
+        font-size: 18px;
+    }
+
+
 }
 
 
@@ -754,7 +734,7 @@ section.projetos .projetos-single .button-projeto a{
 
 
 .slick-list{
-    margin-left: -27px;
+    margin-left: -70px;
 }
 
 /*slick slider*/
@@ -780,8 +760,8 @@ section.projetos .projetos-single .button-projeto a{
 
 
 .slick-dotted li button{
-    width: 16px;
-    height: 16px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
     color: #d8d8d8;
     border-width: 0;
