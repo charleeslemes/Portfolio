@@ -539,6 +539,17 @@ footer .redes-sociais i:hover{
 
 
 /*deseing responsivel*/
+
+@media screen and (max-width: 1024px){
+
+    section.tec .tec-single .img-tec{
+        padding-top: 30%;
+       
+    }
+}
+
+
+
 @media screen and (max-width: 920px){
     nav.menu-desktop{
         margin: 33px 20px;
@@ -645,6 +656,13 @@ footer .redes-sociais i:hover{
 
     .diferencial-box .text-diferencial{
         font-size: 18px;
+    }
+
+    section.tec .tec-single .img-tec{
+    
+        padding-top: 40%;
+
+       
     }
 
 
