@@ -453,7 +453,7 @@ section.projetos .wraper-title .title h2{
 .projeto-single{
     width: 100%;
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .texto-projeto{
@@ -471,19 +471,19 @@ section.projetos .wraper-title .title h2{
 
 
 .texto-projeto p{
-    margin-top: 20px;
+    margin: 25px auto;
     color: white;
     text-align: justify;
     padding: 0 15px;
+    max-width: 400px;
     font-size: 17px;
-    margin-bottom: 40px;
 }
 
 
 .texto-projeto a{
 	text-decoration: none;
 	color: white;
-	padding: 8px 35px;
+	padding: 5px 35px;
 	border:  2px solid #463785;
     font-size:19px;
     border-radius:10px;
@@ -492,7 +492,7 @@ section.projetos .wraper-title .title h2{
 }
 
 .btnCodigo{
-   text-align: center;
+    text-align: center;
 }
 
 .texto-projeto a:hover{
@@ -502,10 +502,9 @@ section.projetos .wraper-title .title h2{
 
 .img-projeto{
     width: 60%;
-    box-shadow: 0 0 5px rgb(59, 58, 58);
+    box-shadow: 0 0 10px rgb(59, 58, 58);
     padding-top: 20%;
-    background-image: url('../images/projeto-random.jpg');
-    background-position: 100% 50%;
+    background-position: 100% 100%;
     background-size: cover;
     border-radius: 8px;
   
