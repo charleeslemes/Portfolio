@@ -274,9 +274,8 @@ section.tec{
 
 section.tec .wraper-title{
     padding-top: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     max-width: 180px;
-    
     
 
 }
@@ -298,7 +297,7 @@ section.tec .wraper-title .title h2{
 }
 
 section.tec .container-tec{
- padding: 40px 0;
+ padding: 30px 0;
  overflow: hidden;
 }
 
@@ -328,8 +327,8 @@ section.tec .tec-single p{
 }
 
 section.diferenciais{
-    margin-top: 70px;
-    padding: 40px 0;
+    margin-top: 30px;
+    
 }
 
 
@@ -363,7 +362,7 @@ section.diferenciais .wraper-title .title h2{
 
 .container-diferenciais{
     width: 100%;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 
