@@ -22,8 +22,28 @@ html,body{
     
 }
 
+
+.img{
+    background-image: url('../images/foto1.jpeg');
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+    border-radius:50%;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.titulo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
 h1{
     margin-top:15px;
+    text-align: center;
 }
 
 h2{
