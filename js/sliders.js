@@ -15,7 +15,7 @@ $('.container-tec').slick({
 /* descrição autor */
 ScrollReveal({ reset: true});
 
-ScrollReveal().reveal('.conteudo-sobre .dev', { delay: 300});
+ScrollReveal().reveal('.conteudo-sobre .dev', { delay: 180});
 
 ScrollReveal().reveal('.conteudo-sobre .title-autor', { delay: 500});
 ScrollReveal().reveal('.conteudo-sobre .texto-autor ', { delay: 700});
@@ -30,7 +30,7 @@ function escritaAuto(elemento) {
     textoArray.forEach((letra, i) => {
        setTimeout(() => elemento.innerHTML = elemento.innerHTML.replace("|", "") + letra +"|", 120 * i);
        if(textoArray.length-1 == i){
-          setTimeout(() => escritaAuto(elemento), 75 * i + 5000);
+          setTimeout(() => escritaAuto(elemento), 75 * i + 20000);
        }
     });
 
