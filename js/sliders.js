@@ -7,7 +7,9 @@ $('.container-tec').slick({
     autoplay:true,
     autoplaySpeed: 2000,
     pauseOnHover:false,
-    draggable: true
+    draggable: true,
+    infinite: true,
+    pauseOnDotsHover: false,
   
 });
 
