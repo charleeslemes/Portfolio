@@ -41,7 +41,7 @@ ScrollReveal().reveal('.conteudo-sobre .texto-autor ', { delay: 800});
     
     const titulo = document.querySelector('.dev');
     escritaAuto(titulo);
-    
+
 
   
   })

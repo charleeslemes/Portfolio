@@ -14,6 +14,3 @@ $('.container-tec').slick({
 });
 
 
-
-
-
