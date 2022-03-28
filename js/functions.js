@@ -12,15 +12,7 @@ $(function(){
      }
 
 
-
-     /* descrição autor */
-ScrollReveal({ reset: true});
-
-ScrollReveal().reveal('.conteudo-sobre .dev', { delay: 180});
-
-ScrollReveal().reveal('.conteudo-sobre .title-autor', { delay: 500});
-ScrollReveal().reveal('.conteudo-sobre .texto-autor ', { delay: 800});
-
+     
 
 
 

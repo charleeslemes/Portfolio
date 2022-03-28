@@ -690,6 +690,19 @@ footer .redes-sociais i:hover{
 
 
 @media screen and (max-width: 768px){
+
+    .init-hidden{
+        opacity: 0;
+        transition: 0.9s ease;
+    }
+
+
+
+    .init-hidden-off{
+        opacity: 1;
+    }
+
+
     nav.menu-desktop{
        display: none;
     }
