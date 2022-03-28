@@ -693,7 +693,7 @@ footer .redes-sociais i:hover{
 
     .init-hidden{
         opacity: 0;
-        transition: 0.3s ease;
+        transition: .4s ;
     }
 
 
