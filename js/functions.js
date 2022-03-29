@@ -21,9 +21,9 @@ $(function(){
     textoArray.pop();
     elemento.innerHTML = '';
     textoArray.forEach((letra, i) => {
-        setTimeout(() => elemento.innerHTML = elemento.innerHTML.replace("|", "") + letra +"|", 120 * i);
+        setTimeout(() => elemento.innerHTML = elemento.innerHTML.replace("", "") + letra +"", 120 * i);
         if(textoArray.length-1 == i){
-            setTimeout(() => escritaAuto(elemento), 75 * i + 20000);
+            setTimeout(() => escritaAuto(elemento), 75 * i + 999999999);
         }
     });
 
