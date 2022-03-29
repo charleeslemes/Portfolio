@@ -91,6 +91,7 @@ nav.menu-mobile{
     float: right;
     margin-top: -45px;
     margin-right: 40px;
+    z-index: 999;
     cursor: pointer;
 	width: 32px;
 	height: 32px;
@@ -100,6 +101,7 @@ nav.menu-mobile{
 }
 nav.menu-mobile ul{
     display: none;
+    z-index: 998;
     position: absolute;
     background-color: rgba(0,0,0,0.9) ;
     top:0;
@@ -514,7 +516,16 @@ section.projetos .wraper-title .title h2{
     margin-right: 8px;
 }
 
-.btnCodigo{
+.btnProjeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.codigo{
+    cursor: pointer;
+    margin-left: 15px;
     text-align: center;
 }
 
@@ -690,6 +701,9 @@ footer .redes-sociais i:hover{
 
 
 @media screen and (max-width: 768px){
+    nav.menu-mobile{
+        z-index: 999;
+    }
 
     .init-hidden{
         opacity: 0;
